@@ -2,7 +2,7 @@ name: sample-sleeper
 services:
 - environment_slug: go
   github:
-    branch: master
+    branch: main
     deploy_on_push: true
     repo: digitalocean/sample-sleeper
   name: sample-sleeper
