@@ -1,0 +1,8 @@
+spec:
+  name: sample-sleeper
+  services:
+  - environment_slug: go
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/sample-sleeper.git
+    name: sample-sleeper
